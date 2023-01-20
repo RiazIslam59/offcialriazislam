@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--color-bg);
+}
+
+:root {
+  --color-white: white;
+  --color-black: black;
+  --color-primary: #009688;
+  --color-bg: #E2E2E2;
+  --color-orange: #F44336;
+  --color-greay-0: #f8f8f8;
+  --color-greay-1: #dbe1e8;
+  --color-greay-2: #b2becd;
+  --color-greay-3: #6c7983;
+  --color-greay-4: #2a2a35;
+  --color-greay-5: #2a2e35;
+  --color-greay-6: #12181b;
+  --color-greay-7: #0a0e12;
+}
+
+.main {
+  padding: 15px;
+}
+
+.side-a {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 10px 0px var(--color-greay-3);
+  margin-right: 15px;
+}
+.side-a .img {
+  position: relative;
+}
+.side-a .img img {
+  width: 100%;
+}
+.side-a .img p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--color-primary);
+  color: white;
+  bottom: 20px;
+  left: 20px;
+}
+.side-a .table {
+  border-bottom: 1px solid var(--color-greay-1);
+  padding: 20px;
+  line-height: 30px;
+}
+.side-a .table table tr .td {
+  width: 30px;
+}
+.side-a .table table tr .td i {
+  color: var(--color-primary);
+  font-size: 20px;
+}
+.side-a .table table tr .tds {
+  color: var(--color-greay-3);
+  font-weight: 600;
+}
+.side-a .skills {
+  padding: 20px;
+}
+.side-a .skills h2 {
+  margin-bottom: 15px;
+  color: var(--color-primary);
+}
+.side-a .skills p {
+  color: var(--color-greay-3);
+  font-weight: 500;
+}
+.side-a .language {
+  padding: 20px;
+}
+.side-a .language h2 {
+  margin-bottom: 15px;
+  color: var(--color-primary);
+}
+.side-a .language p {
+  color: var(--color-greay-3);
+  font-weight: 500;
+}
+
+.side-b {
+  width: 68%;
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px 0px var(--color-greay-3);
+}
+.side-b .heading h1 {
+  color: var(--color-greay-3);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.side-b .heading h1 i {
+  padding-right: 20px;
+  color: var(--color-primary);
+}
+.side-b .experience h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-greay-3);
+  line-height: 40px;
+}
+.side-b .experience .experience-desing {
+  line-height: 40px;
+}
+.side-b .experience .experience-desing i {
+  color: var(--color-primary);
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 18px;
+}
+.side-b .experience .experience-desing p {
+  display: inline-block;
+  color: var(--color-primary);
+}
+.side-b .experience span {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 5px;
+  padding: 5px;
+}
+.side-b .underline {
+  border-bottom: 1px solid var(--color-greay-1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.side-c {
+  width: 68%;
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px var(--color-greay-3);
+}
+.side-c h1 {
+  color: var(--color-greay-3);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.side-c h1 i {
+  padding-right: 20px;
+  color: var(--color-primary);
+}
+.side-c .education h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-greay-3);
+  line-height: 40px;
+}
+.side-c .education .experience-desing {
+  color: var(--color-primary);
+  line-height: 40px;
+}
+.side-c .education .experience-desing i {
+  display: inline-block;
+  margin-right: 15px;
+}
+.side-c .education .experience-desing p {
+  display: inline-block;
+}
+.side-c .underline {
+  border-bottom: 1px solid var(--color-greay-1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: var(--color-primary);
+}
+.footer h2 {
+  color: var(--color-white);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer .socila-media-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+}
+.footer .socila-media-icon a {
+  padding: 8px;
+  color: var(--color-white);
+}
+.footer .socila-media-icon a:hover {
+  color: var(--color-greay-2);
+}
+.footer h3 {
+  color: var(--color-white);
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */

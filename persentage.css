@@ -1,0 +1,127 @@
+.skills .persentage-html {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.skills .persentage-html .persentages {
+  width: 90%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+.skills .persentage-css {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.skills .persentage-css .persentages {
+  width: 90%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+.skills .persentage-java {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.skills .persentage-java .persentages {
+  width: 60%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+.skills .persentage-prog {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.skills .persentage-prog .persentages {
+  width: 50%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.language .persentage-bangla {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.language .persentage-bangla .persentages {
+  width: 99%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+.language .persentage-english {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.language .persentage-english .persentages {
+  width: 70%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+.language .persentage-hindi {
+  background-color: var(--color-greay-1);
+  width: 300px;
+  height: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+}
+.language .persentage-hindi .persentages {
+  width: 90%;
+  height: 16px;
+  background-color: #009688;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}/*# sourceMappingURL=persentage.css.map */
