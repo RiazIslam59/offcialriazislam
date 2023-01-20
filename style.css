@@ -74,7 +74,7 @@ body {
   padding: 20px;
 }
 .side-a .skills h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--color-primary);
 }
 .side-a .skills p {
@@ -85,7 +85,7 @@ body {
   padding: 20px;
 }
 .side-a .language h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--color-primary);
 }
 .side-a .language p {
@@ -184,6 +184,7 @@ body {
   width: 100%;
   height: 200px;
   background-color: var(--color-primary);
+  overflow: hidden;
 }
 .footer h2 {
   color: var(--color-white);
@@ -211,4 +212,42 @@ body {
   padding: 10px;
   font-size: 16px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 510px) {
+  .main {
+    width: 100%;
+    padding: 10px;
+  }
+  .main .side-a {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .main .side-a .img {
+    width: 100%;
+  }
+  .main .side-a .table {
+    width: 100%;
+  }
+  .main .side-a .skills {
+    width: 100%;
+  }
+  .main .side-a .language {
+    width: 100%;
+  }
+  .main .side-b {
+    width: 100%;
+  }
+  .main .side-c {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer .socila-media-icon {
+    font-size: 20px;
+  }
+  .footer .socila-media-icon a {
+    padding: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
